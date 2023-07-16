@@ -5,11 +5,11 @@
 
 int main() {
 
-	char letter;
+	char letter[2];
 	printf("Enter the character(in lowercase): ");
-	scanf("%c", &letter);
+	scanf("%1s", letter);
 
-	switch (letter) 
+	switch (letter[0]) 
 	{
 		case 'a':
 		case 'e':
